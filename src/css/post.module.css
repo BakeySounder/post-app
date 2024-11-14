@@ -1,0 +1,32 @@
+.Post {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding-left: 10vw;
+  font-size: larger;
+}
+span {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 2rem;
+  max-width: 80vw;
+}
+p {
+  max-width: 80vw;
+  font-size: 1.5rem;
+}
+
+.comment {
+  max-width: 80vw;
+  border-bottom: 1px solid #d9d9d9;
+}
